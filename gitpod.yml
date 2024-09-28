@@ -1,0 +1,10 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: npm install
+  - command: npm run test
+
+vscode:
+  extensions:
+    - solidity-solidity
